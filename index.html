@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BluePeak Portal</title>
+    <!-- This next line links your home screen icon -->
+    <link rel="manifest" href="manifest.json">
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #0b0f19;
+            color: #ffffff;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+        }
+        .container {
+            text-align: center;
+            padding: 20px;
+            width: 90%;
+            max-width: 400px;
+            background: #161b26;
+            border-radius: 16px;
+            box-shadow: 0 8px 24px rgba(0,0,0,0.5);
+            border: 1px solid #212631;
+        }
+        h1 {
+            color: #38bdf8;
+            margin-bottom: 10px;
+            font-size: 24px;
+        }
+        p {
+            color: #94a3b8;
+            font-size: 14px;
+            margin-bottom: 25px;
+        }
+        .app-btn {
+            display: block;
+            width: 100%;
+            padding: 14px 0;
+            margin: 12px 0;
+            background: #0284c7;
+            color: white;
+            text-decoration: none;
+            border-radius: 8px;
+            font-weight: bold;
+            font-size: 16px;
+            transition: background 0.2s;
+            box-sizing: border-box;
+        }
+        .app-btn:active {
+            background: #0369a1;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>BluePeak Hub</h1>
+        <p>Welcome to your central access portal</p>
+        
+        <!-- You can replace these href links later with your actual links -->
+        <a href="https://symphonious-sunshine-8fd513.netlify.app" class="app-btn">Admin Panel</a>
+        <a href="https://lively-vacherin-ea8e6a.netlify.app" class="app-btn">Member Portal</a>
+        <a href="https://fabulous-lily-debd2b.netlify.app" class="app-btn">Premium Membership</a>
+    </div>
+
+</body>
+</html>
